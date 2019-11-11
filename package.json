@@ -1,7 +1,11 @@
 {
-  "name": "my-project-xl",
-  "version": "1.0.0",
+  "name": "my-component-xl",
+  "version": "1.0.2",
   "main": "lib/wfc-components.umd.js",
+  "types": "lib/main.d.ts",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name wfc-components src/main.ts",

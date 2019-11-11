@@ -14,4 +14,4 @@ new Vue({
   store,
   render: h => h(App)
 }).$mount('#app')
-export default { ...components, hello: 'xl' }
+export default { ...components, hello: 'xl' } as any
