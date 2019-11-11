@@ -1,10 +1,10 @@
 {
-  "name": "my-project",
-  "version": "0.1.0",
-  "private": true,
+  "name": "my-project-xl",
+  "version": "1.0.0",
+  "main": "lib/wfc-components.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name wfc-components src/main.ts",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -28,5 +28,19 @@
     "less-loader": "^5.0.0",
     "typescript": "^3.4.3",
     "vue-template-compiler": "^2.6.10"
-  }
+  },
+  "description": "## Project setup ``` npm install ```",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaolong0114/my-project.git"
+  },
+  "keywords": [
+    "default"
+  ],
+  "author": "dragonet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaolong0114/my-project/issues"
+  },
+  "homepage": "https://github.com/xiaolong0114/my-project#readme"
 }
